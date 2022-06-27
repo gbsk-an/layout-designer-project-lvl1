@@ -26,7 +26,7 @@
 
 .title_orange {
     margin: 0;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .title_black {
@@ -50,6 +50,7 @@
 }
 
 .intro > p {
+    margin: 0;
     width: 540px;
 }
 
@@ -57,3 +58,22 @@
     padding-right: 26px;
 }
 
+.btn {
+    display: block;    
+    background-color: var(--primary-color);
+    color: var(--standart-color);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 19px 0;
+    max-width: 148px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 567px;
+}
+
+.btn:hover {
+    background-color: var(--primary-hover-color);
+}
