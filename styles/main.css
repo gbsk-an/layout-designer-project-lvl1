@@ -1,8 +1,35 @@
 @import url("./variables.css");
 @import url("./header.css");
-@import url("./normalize.css");
-@import url("./fonts.css");
+
+html, body {
+    height: 100vh;
+}
 
 body {
+    margin: 0;
     background-color: var(--main-color);
+}
+
+h1, h2, h3 {
+    font-family: 'Neucha', cursive;
+    line-height: 1.6em;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: var(--text-color);
 }
