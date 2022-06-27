@@ -1,7 +1,8 @@
 @import url("./variables.css");
 @import url("./header.css");
 @import url("./video_block.css");
-@import url("./grid-container.css");
+@import url("./grid_container.css");
+@import url("./main_grid.css");
 
 html, body {
     height: 100vh;
