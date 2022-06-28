@@ -25,6 +25,11 @@
     padding-bottom: 30px;
 }
 
+.p_video {
+    margin: 0;
+    padding-top: 27px;
+}
+
 .video {
     border: none;
     z-index: 1;
