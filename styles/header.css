@@ -1,8 +1,8 @@
-.wrapper {
+.wrapper_1 {
     position: relative;
 }
 
-.wrapper::before {
+.wrapper_1::before {
     display: block;
     content: '';
     position: absolute;
@@ -44,7 +44,7 @@
     top: 55px;
     left: 299px;
     bottom: 334px;
-    z-index: 0;
+    z-index: -1;
 }
 
 .intro {
