@@ -1,13 +1,13 @@
 .video_block {
-    background-color: var(--standart-color);
-}
-
-.wrapper_2 {
     margin: 0 auto;
     max-width: 1110px;
     padding-bottom: 100px;
     padding-top: 100px;
     text-align: center;
+}
+
+.wrapper_2 {
+    background-color: var(--standart-color);
 }
 
 .video_title_black,
@@ -37,6 +37,7 @@
 
 #rectangle{
     display:block;
+    margin-top: -188px;
     width: 100%;
     height: 100px;
     background-color: var(--light-black-color);
