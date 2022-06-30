@@ -3,7 +3,7 @@
 @import url("./video_block.css");
 @import url("./grid_container.css");
 @import url("./main_grid.css");
-
+@import url("./footer.css");
 html, body {
     height: 100vh;
 }
@@ -38,4 +38,26 @@ p {
     font-size: 16px;
     line-height: 1.6em;
     color: var(--text-color);
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+  
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
 }

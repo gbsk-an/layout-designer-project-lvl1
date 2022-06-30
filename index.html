@@ -187,15 +187,23 @@
     </main>
     <footer>
         <div class="wrapper_9">
-            <div class="footer_grid_container">
-                <div class="footer_grid_item_1">
+            <div class="footer_flex_container">
+                <div class="footer_flex_item_1">
                     <h3>Хотите узнать больше?<br>Подпишитесь на обновления</h3>
                 </div>
-                <div class="footer_grid_item_2">
-                    <p>Электронная почта</p>
-                    <input type="email" value="Ваша электронная почта"><button type="submit"><img src="images/send.svg"></button>
-                    <p>Подписываясь, вы принимаете правила сервиса</p>
+                <div class="footer_flex_item_2">
+                    <p class="mail_p">Электронная почта</p>
+                    <div class="block_email">                                   
+                        <input type="email" class="email_form" value="Ваша электронная почта">
+                        <button type="submit" class="button_submit"><img class="send_img" src="images/send.svg"></button>
+                    </div>
+                    <p class="rules_p">Подписываясь, вы принимаете <span>правила <br>сервиса</span></p>
                 </div>
+            </div>
+            <div class="copyright">
+                <p>© 2020 Константин Константинопольский</p>
+                <p>По материалам статьи <span>Yash Ranadive Cognitive Biases in Programming</span></p>
+                <p><span>Курсы программирования Hexlet</span></p>
             </div>
         </div>   
     </footer>
