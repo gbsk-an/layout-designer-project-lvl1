@@ -1,5 +1,5 @@
 .wrapper_3 {
-    background-color: var(--light-black-color);
+    background-color: var(--primary-dark);
 }
 .grid_container {
     margin: 0 auto;
@@ -8,13 +8,13 @@
     padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(12, 65px);
+    grid-auto-rows: minmax(350px, auto);
     gap: 20px 30px;
 }
 
 .bg-white{
     background-color: var(--main-color);
-    width: 350px;
-    height: 324px;
+    height: 100%;
 }
 
 .grid_blocks:hover{
