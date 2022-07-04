@@ -1,8 +1,8 @@
-.wrapper_1 {
+.header {
     position: relative;
 }
 
-.wrapper_1::before {
+.header::before {
     display: block;
     content: '';
     position: absolute;
@@ -15,7 +15,7 @@
     z-index: -1;
 }
 
-.banner {
+.wrapper_1 {
     margin: 0 auto;
     max-width: 1110px;
     padding-bottom: 100px;
@@ -50,6 +50,7 @@
 .intro {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin: 0;
 }
 
@@ -57,16 +58,12 @@
     margin: 0;
     width: 540px;
     line-height: 160%;
-}
-
-.padding-right {
-    padding-right: 30px;
     letter-spacing: -0.07px;
-    line-height: 161%;
+    position: relative;
 }
 
 .btn {
-    display: block;    
+    display: block;  
     background-color: var(--primary-color);
     color: var(--standart-color);
     text-decoration: none;
