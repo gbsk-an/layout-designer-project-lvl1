@@ -1,7 +1,7 @@
 @import url("./variables.css");
 @import url("./header.css");
 @import url("./video_block.css");
-@import url("./grid_container.css");
+@import url("./menu.css");
 @import url("./main_grid.css");
 @import url("./footer.css");
 @import url("./responsive.css");
@@ -14,6 +14,13 @@ body {
     margin: 0;
     background-color: var(--main-color);
     overflow-x: hidden;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1110px;
+    padding-bottom: 100px;   
+    padding-top: 100px;
 }
 
 h1, h2, h3 {

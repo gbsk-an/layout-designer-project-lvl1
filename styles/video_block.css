@@ -1,12 +1,5 @@
 .video_block {
     background-color: var(--standart-color);
-}
-
-.wrapper_2{
-    margin: 0 auto;
-    max-width: 1110px;
-    padding-bottom: 100px;
-    padding-top: 100px;
     text-align: center;
 }
 
