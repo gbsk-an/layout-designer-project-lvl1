@@ -27,6 +27,7 @@ h1, h2, h3 {
     font-family: 'Neucha', cursive;
     line-height: 1.6em;
     font-weight: 400;
+    color: var(--text-color);
 }
 
 h1 {
