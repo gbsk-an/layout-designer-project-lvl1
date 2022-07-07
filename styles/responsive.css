@@ -1,5 +1,9 @@
-@media (max-width: 1200px) {
-    .wrapper_1 {
-        max-width: 800px;
+@media screen and (max-width : 420px) {
+    html {
+        -webkit-text-size-adjust : none;
+        text-size-adjust         : none
+    }
+    h1 {
+        font-size:1.5em;
     }
 }
