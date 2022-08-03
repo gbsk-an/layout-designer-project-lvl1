@@ -2,10 +2,10 @@
 @import url("./fonts.css");
 @import url("./header.css");
 @import url("./video_block.css");
-@import url("./menu.css");
+@import url("./navigation.css");
 @import url("./main_grid.css");
 @import url("./footer.css");
-@import url("./responsive.css");
+
 
 html, body {
     height: 100vh;
@@ -19,14 +19,14 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 1110px;
+    max-width: 1096px;
     padding-bottom: 100px;   
     padding-top: 100px;
 }
 
 h1, h2, h3 {
     font-family: 'Neucha', cursive;
-    line-height: 1.6em;
+    line-height: 1.2em;
     font-weight: 400;
     color: var(--text-color);
 }
